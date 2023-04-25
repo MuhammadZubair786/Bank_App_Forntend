@@ -163,6 +163,16 @@ function Login(props) {
 
                                 </Col>
                             </Row>
+<Row>
+                                <Col lg={6}>
+                                    <h5 style={{ color: "black", textAlign: "left", fontSize: "13px", fontFamily: "DynaPuff", textShadow: "10px 10px 100px blue" }}>
+                                        <Link to={"/login"}>
+                                            Staff Login
+                                        </Link></h5>
+
+                                </Col>
+                              
+                            </Row>
                         </div>
                     </Col>
                     <Col lg={2}></Col>
