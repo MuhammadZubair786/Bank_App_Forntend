@@ -1,0 +1,77 @@
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.container1{
+    display:flex;
+}
+main{
+    width: 100%;
+    padding: 20px;
+}
+.card{
+    box-shadow: 5px 5px 100px rgb(255, 245, 245);
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 100px;
+    border: 1px solid rgb(226, 223, 240) !important;
+    font-size: 20px !important;
+    color: blue;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sidebar{
+    background: #01065D;
+    color: #fff;
+    height: 88vh;
+    width: 250px;
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+    cursor: pointer;
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+    text-decoration: none;
+
+}
+.link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+
+.link:focus{
+   
+    background:rgb(18, 164, 255) !important;
+}
+
+.link:active{
+    background:rgb(18, 164, 255) !important;
+
+}
+/* .active{
+    background: lightskyblue;
+    color: #000;
+} */
+.icon, .link_text{
+    font-size: 20px;
+    text-decoration: none;
+}

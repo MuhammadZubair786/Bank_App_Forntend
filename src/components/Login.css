@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px; /* Height can be adjusted as per your requirement */
+    background-color: #f2f2f2; /* Background color can be adjusted as per your requirement */
+    padding: 10px;
+    box-sizing: border-box;
+  
+}
